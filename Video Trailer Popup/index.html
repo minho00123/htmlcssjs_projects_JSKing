@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Video Trailer Popup</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <img
+        src="https://images.pexels.com/photos/66134/pexels-photo-66134.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="movie-image"
+      />
+      <h1>Movie Title</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
+        assumenda, eum repudiandae fugiat ipsa cum porro error cumque aliquid.
+        Qui aliquam, culpa sunt ipsam error soluta doloremque perferendis
+        adipisci magnam.
+      </p>
+      <button class="btn">Watch now</button>
+    </div>
+    <div class="trailer-container active">
+      <video src="trailer.mp4" controls></video>
+      <i class="fas fa-times fa-2x close-icon"></i>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
